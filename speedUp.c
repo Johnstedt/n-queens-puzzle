@@ -42,19 +42,19 @@ double runWithBoardSize(int bz, int th)
 		stop = getWallTime();
 		time[i] = stop - start;
 
-		printf(" %d & %d & %lf  \\\\hline\n", bz, th, time[i]);
+		//printf(" %d & %d & %lf  \\\\hline\n", bz, th, time[i]);
 	}
 
-/*	
+
 	printf("\n --- EXPERIMENT WITH %d THREADS AND %d x %d BOARD --- \n\n",  th, bz, bz);
 	printf("MEDIAN: %lf\n", median(5, time));
 	printf("MEAN: %lf\n", mean(5, time));
 	printf("VARIANCE: %lf\n", variance(5, time));
 	printf("DEVIATION: %lf\n", deviation(5, time));
 	printf("\n\n --- EXPERIMENT OVER --- \n\n");
-*/	
 
-	printf(" %d & %d & %lf & %lf & %lf & %lf \\hline \n", bz, th, median(5, time), mean(5, time), variance(5, time), deviation(5,time));
+
+	//printf(" %d & %d & %lf & %lf & %lf & %lf \\hline \n", bz, th, median(5, time), mean(5, time), variance(5, time), deviation(5,time));
 
 	return median(5, time);
 }
@@ -102,6 +102,5 @@ int main(int argc, char const *argv[])
 
 	printf("\n\n");
 
-	/* code */
 	return 0;
 }
