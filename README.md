@@ -1,8 +1,4 @@
-# Tremory webb and desktop repository
-
-**Clone and run for a quick way to see it.**
-
-This currently doesnt work on desktop due to the tree requiring heavy DOM manipulation.
+# THE N_Queens Puzzle 
 
 ## Requirements
 
